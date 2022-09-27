@@ -1,1 +1,1 @@
-![Image](/Screen%20Shot%202022-09-26%20at%205.06.36%20PM.png)
+![Image](https://github.com/devshatter/cse15l-lab-reports/blob/main/Screen%20Shot%202022-09-26%20at%205.06.36%20PM.png?raw=true)
