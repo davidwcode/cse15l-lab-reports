@@ -10,13 +10,25 @@ These were the six goals for today:
 ---
 
 ## Installing VS Code
-I already had VS Code installed before this class, and if I remember correctly, I just downloaded the application from the website and ran it.
+I already had VS Code installed before this class, and if I remember correctly, I just downloaded the application from the [website](https://code.visualstudio.com/) and ran it.
 
 ![Image](images/lab1/vscode.png)
 
 ---
 ## Remotely Connecting
-To start off this process, I typed in the command
+Before anything else, I had to access my CSE 15L account that I would use to login to the remote computers. I first looked up my account [here](https://sdacs.ucsd.edu/~icc/index.php) by entering my username and PID.
+
+![Image](images/lab1/accountlookup.png)
+
+Upon clicking submit, I was able to see my various account names.
+
+![Image](images/lab1/accounts.png)
+
+After clicking on my ```cs15lfa22ef``` account, there was a link to reset my password. I entered my old password and my new password.
+
+(Note: more detailed instructions, courtesy of UCSD, can be found [here](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit))
+
+To start off the actual login process, I typed in the command
 
 ```$ ssh cs15lfa22ef@ieng6.ucsd.edu```
 (cs15lfa22ef being my username for the class).
@@ -32,6 +44,14 @@ I navigated to the directory
 ```/home/linux/ieng6/cs15lfa22/```, used ls to see all the available users, and tried to ```cd``` into a random person’s account which (understandably) denied me entry.
 
 ![Image](images/lab1/denied.png)
+
+Here are some other commands I ran:
+* ```$ ls -a``` showed all files in the current directory, including hidden files
+* ```$ cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~``` copied a file from the listed directory to my home directory (```/home/linux/ieng6/cs15lfa22/cs15lfa22ef```)
+* ```$ cat /home/linux/ieng6/cs15lfa22/public/hello.txt``` printed the contents of the file ```hello.txt```
+* ```$ ls``` simply helped me verify that the file ```hello.txt``` was actually copied over.
+
+![Image](images/lab1/morecommands.png)
 
 ---
 ## Copying files with scp
