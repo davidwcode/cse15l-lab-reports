@@ -6,6 +6,7 @@ This lab report contains two parts:
 ___
 ## Part 1
 To start off, here is the code from my ```SearchEngine.java``` file:
+
 ```java
 import java.io.IOException;
 import java.net.URI;
@@ -163,7 +164,9 @@ Here was the failure-inducing input (test code from ```LinkedListTest.java```):
     }
 ```
 Here's the symptom:
+
 ![Image](/images/lab2_3/infiniteloop.png)
+
 Obviously it is not apparent from the picture, but the test procedure was never finishing. It appeared that the code was getting stuck.
 
 For reference, here is the code for ```append```:
