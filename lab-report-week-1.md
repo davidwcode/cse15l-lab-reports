@@ -7,6 +7,7 @@ These were the six goals for today:
 * Copy files over with scp
 * Set up an ssh key to make my life easier
 * Learn other ways of making my life easier
+
 ---
 
 ## Installing VS Code
