@@ -3,7 +3,9 @@
 This lab report contains two parts:
 * Displaying the functionality of week 2's search engine
 * Bug debugging from week 3
+
 ___
+
 ## Part 1
 To start off, here is the code from my ```SearchEngine.java``` file:
 
