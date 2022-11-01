@@ -7,3 +7,5 @@ mission accomplished
 [Lab 1](/lab-report-week-1.md)
 
 [Labs 2, 3](/lab-report-2.md)
+
+[Lab 5](/lab-report-3.md)
