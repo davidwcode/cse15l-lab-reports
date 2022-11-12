@@ -3,9 +3,9 @@ David Wang
 ## Part 1
 The following sequence is for changing the name of the ```start``` parameter and its uses to ```base``` in ```DocSearchServer.java```.
 
-Here's the sequence ```/start<Enter>cebase<Escape>n.n.:w<Enter>```
+Here's the sequence: ```/start<Enter>cebase<Escape>n.n.:w<Enter>```
 
-The first part, ```/start``` searhes for the string "start." Upon pressing enter, the cursor jumps to the first occurence of "start."
+The first part, ```/start``` searches for the string "start." Upon pressing enter, the cursor jumps to the first occurence of "start."
 
 ![Image](images/lab4/slashstart.png)
 When the file is first opened with ```$ vim DocSearchServer.java```, the cursor is on the first character
