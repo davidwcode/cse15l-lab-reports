@@ -11,3 +11,5 @@ mission accomplished
 [Lab 3](/lab-report-3.md)
 
 [Lab 4](/lab-report-4.md)
+
+[Lab 5](/lab-report-5.md)
